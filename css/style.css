@@ -131,7 +131,7 @@ footer {
 
  footer p {
     text-align: center;
- } 
+ }
 
 
 footer p a:visited {
@@ -145,7 +145,7 @@ footer p a:visited {
     padding: 20px;
     justify-items: center;
     list-style: none;
- } 
+ }
 
  figure {
     border-width: 20px;
@@ -218,7 +218,6 @@ figcaption {
 
 /*The following code for the form sign up was refrenced from w3schools. I have modified the code to create a sign up form for a newsletter (https://www.w3schools.com/howto/howto_css_signup_form.asp)*/
 
-{box-sizing: border-box}
 
 /* Full-width input fields */
   input[type=first-name], input[type=last-name], input[type=text] {
@@ -242,7 +241,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: darkgreen;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -259,7 +258,7 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #f44336;
+  background-color: darkred;
 }
 
 /* Float cancel and signup buttons and add an equal width */
