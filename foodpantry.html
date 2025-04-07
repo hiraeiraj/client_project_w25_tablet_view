@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Food Pantry</title>
+</head>
+<body class="body-grid">
+
+    <header>
+            <a class="skip-link" href = "#content">Skip to Main Content</a>
+            <img class= "umsi-logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav>
+            <ul class="nav-grid-items">
+                <li class="header-item"><a href = "index.html">Home</a></li>
+                <li class="header-item" id = "current"><a href = "foodpantry.html">Food Pantry</a></li>
+                <li class="header-item"><a href = "caps.html">CAPS</a></li>
+                <li class="header-item"><a href = "tutoring.html">Tutoring</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main id="content">
+        <h1>Food Pantry</h1>
+        <section>    
+        <h2> Welcome to the Food Pantry </h2>
+        
+        <div>
+            <p> To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others. </p>
+
+        </div>
+        <img src="images/download(4).png" alt="An AI generated image of a pantry of food">
+        <!-- Image generated from UMGPT with the prompt, "make an image of groceries"
+        UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
+        <div> <p> College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.</div>
+
+        <div >
+        <p> What we provide:
+        <ul class = "grid-pantry">
+            <li> <img src = "images/nrd-D6Tu_L3chLE-unsplash.jpg" alt ="image of many shelves of vegetables at a grocery store"> 
+                Food: Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)
+            </li>
+            <li> <img src = "images/eniko-kis-L0g_gTN8l_A-unsplash.jpg" alt="three bowls stacked on top of each other"> 
+                Kitchen and Cooking: Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware
+            </li>
+            <li> <img src = "images/sincerely-media-5U7Fa-y1uBs-unsplash.jpg" alt = "four bars of soap of various colors stacked on top of each other"> 
+                Personal and Household: Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more
+            </li>
+            <li> <img src = "images/UMSI_Campus_09162021_027.JPG" alt = "an image of a university building with students walking"> 
+                Support: Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)
+            </li>
+        </ul>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        © Copyright <span id="year"></span> Regents of the University of Michigan
+
+            School of Information<br>
+            University of Michigan<br>
+            105 S State St.<br>
+            Ann Arbor, MI 48109-1285<br>
+             <p>Maize and Blue Cupboard | <a href="https://mbc.studentlife.umich.edu/"> Maize and Blue Cupboard</a></p>
+      </footer>
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+</body>
+</html>
