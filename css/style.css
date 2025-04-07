@@ -215,6 +215,9 @@ figcaption {
 
 }
 
+
+/*The following code for the form sign up was refrenced from w3schools. I have modified the code to create a sign up form for a newsletter (https://www.w3schools.com/howto/howto_css_signup_form.asp)*/
+
 {box-sizing: border-box}
 
 /* Full-width input fields */
